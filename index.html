@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/scss/main.css" />
+  </head>
+  <body>
+    <!-- ----------------------------- NAVIGATION ------------------------------ -->
+    <header>
+      <nav class="navigation-bar" id="myHeader">
+        <div class="logo" id="Home">
+          <a href="#about">
+            <img src="./assets/image/q.jpg" alt="logo" />
+            <h2>Portfolio</h2>
+          </a>
+        </div>
+        <ul class="nav-item">
+          <li class="items"><a href="#about">About</a></li>
+          <li class="items"><a href="#project">Project</a></li>
+          <li class="items"><a href="#skill">Skill</a></li>
+          <li class="items"><a href="#experience">Experience</a></li>
+          <li class="items"><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="profile">
+          <img
+            src="./assets/image/photo_2021-06-16_00-20-22.jpg"
+            alt="user-pic"
+            onclick="toggleMenu()"
+          />
+        </div>
+        <ul class="active" id="subMenu">
+          <li>
+            <i class="fa-solid fa-user"></i>
+            <a href="#">Edit Profile</a>
+            <span>></span>
+          </li>
+          <li>
+            <i class="fa-solid fa-gears"></i>
+            <a href="#">Setting</a>
+            <span>></span>
+          </li>
+          <li>
+            <i class="fa-solid fa-right-from-bracket"></i>
+            <a href="#">Logout</a>
+            <span>></span>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- --------------------------- NAVIGATION END ---------------------------- -->
+    <!-- ----------------------------- HERO START ------------------------------ -->
+    <section class="hero" id="about">
+      <img
+        src="./assets/image/Lovepik_com-401946861-tanabata-blue-dream-stars.png"
+        alt="bacground"
+        class="background"
+      />
+      <img src="./assets/image/dog-icon.svg" alt="dog" class="dog" />
+      <img src="./assets/image/maker-icon.svg" alt="maker" class="maker" />
+      <div class="about">
+        <div class="picture">
+          <img src="./assets/image/photo.jpg" alt="" />
+        </div>
+        <div class="content">
+          <div class="personal-info">
+            <h2>Hi, My name is <span>Huseyn</span></h2>
+            <p class="auto">I'm <span class="auto-type"></span></p>
+            <p class="info">
+              I am Front-end developer <br />Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Magnam, hic asperiores animi
+              corrupti, pariatur repellat adip.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------------------ HERO END ------------------------------- -->
+    <!-- ---------------------------- PROJECT START ---------------------------- -->
+    <section class="project" id="project">
+      <h1>My <span>Project</span></h1>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper content">
+          <div class="swiper-slide card">
+            <div class="top">
+              <div class="img">
+                <img src="./assets/image/photo.jpg" alt="pp" />
+              </div>
+              <div class="info">
+                <h3>huseyn_i01</h3>
+                <p>Apple</p>
+              </div>
+              <div class="points">
+                <div class="point"></div>
+                <div class="point"></div>
+                <div class="point"></div>
+              </div>
+            </div>
+            <div class="mid">
+              <img src="./assets/image/project1.png" alt="1" />
+            </div>
+            <div class="down">
+              <div class="icons">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-comment"></i>
+                <i class="fa-solid fa-location-arrow"></i>
+              </div>
+              <i class="fa-regular fa-bookmark save"></i>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="top">
+              <div class="img">
+                <img src="./assets/image/photo.jpg" alt="pp" />
+              </div>
+              <div class="info">
+                <h3>huseyn_i01</h3>
+                <p>Irshad</p>
+              </div>
+              <div class="points">
+                <div class="point"></div>
+                <div class="point"></div>
+                <div class="point"></div>
+              </div>
+            </div>
+            <div class="mid">
+              <img src="./assets/image/project2.png" alt="1" />
+            </div>
+            <div class="down">
+              <div class="icons">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-comment"></i>
+                <i class="fa-solid fa-location-arrow"></i>
+              </div>
+              <i class="fa-regular fa-bookmark save"></i>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="top">
+              <div class="img">
+                <img src="./assets/image/photo.jpg" alt="pp" />
+              </div>
+              <div class="info">
+                <h3>huseyn_i01</h3>
+                <p>Kontakt</p>
+              </div>
+              <div class="points">
+                <div class="point"></div>
+                <div class="point"></div>
+                <div class="point"></div>
+              </div>
+            </div>
+            <div class="mid">
+              <img src="./assets/image/project3.png" alt="1" />
+            </div>
+            <div class="down">
+              <div class="icons">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-comment"></i>
+                <i class="fa-solid fa-location-arrow"></i>
+              </div>
+              <i class="fa-regular fa-bookmark save"></i>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="top">
+              <div class="img">
+                <img src="./assets/image/photo.jpg" alt="pp" />
+              </div>
+              <div class="info">
+                <h3>huseyn_i01</h3>
+                <p>Travel</p>
+              </div>
+              <div class="points">
+                <div class="point"></div>
+                <div class="point"></div>
+                <div class="point"></div>
+              </div>
+            </div>
+            <div class="mid">
+              <img src="./assets/image/project4.png" alt="1" />
+            </div>
+            <div class="down">
+              <div class="icons">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-comment"></i>
+                <i class="fa-solid fa-location-arrow"></i>
+              </div>
+              <i class="fa-regular fa-bookmark save"></i>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="top">
+              <div class="img">
+                <img src="./assets/image/photo.jpg" alt="pp" />
+              </div>
+              <div class="info">
+                <h3>huseyn_i01</h3>
+                <p>Apple</p>
+              </div>
+              <div class="points">
+                <div class="point"></div>
+                <div class="point"></div>
+                <div class="point"></div>
+              </div>
+            </div>
+            <div class="mid">
+              <img src="./assets/image/project1.png" alt="1" />
+            </div>
+            <div class="down">
+              <div class="icons">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-comment"></i>
+                <i class="fa-solid fa-location-arrow"></i>
+              </div>
+              <i class="fa-regular fa-bookmark save"></i>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="top">
+              <div class="img">
+                <img src="./assets/image/photo.jpg" alt="pp" />
+              </div>
+              <div class="info">
+                <h3>huseyn_i01</h3>
+                <p>Irshad</p>
+              </div>
+              <div class="points">
+                <div class="point"></div>
+                <div class="point"></div>
+                <div class="point"></div>
+              </div>
+            </div>
+            <div class="mid">
+              <img src="./assets/image/project2.png" alt="1" />
+            </div>
+            <div class="down">
+              <div class="icons">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-comment"></i>
+                <i class="fa-solid fa-location-arrow"></i>
+              </div>
+              <i class="fa-regular fa-bookmark save"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- ----------------------------- PROJECT END ----------------------------- -->
+    <!-- ---------------------------- SKILLS START ----------------------------- -->
+    <section class="skills" id="skill">
+      <img src="./assets/image/Ice_planet.png" alt="earth" class="earth" />
+      <img src="./assets/image/mars.png" alt="mars" class="mars" />
+      <img src="./assets/image/saturn.png" alt="saturn" class="saturn" />
+      <img src="./assets/image/moon.png" alt="moon" class="moon" />
+      <div class="name">
+        <h3>Skills</h3>
+      </div>
+      <div class="accordion">
+        <div class="contentBx">
+          <div class="label"><h2 class="html">HTML</h2></div>
+          <div class="content">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque blanditiis animi temporibus expedita quidem quos
+              aperiam quasi vel voluptate? Iste laborum repudiandae perferendis
+              non quidem fugiat molestias dolorum nulla dicta? Adipisntore totam
+              reiciendis suscipit ullam maiores eveniet, quas error, praesentium
+              facanimi nihil quibusdam, rerum consectetur doloremque distinctio
+              eligendi recusandae, obcaecati dolores iusto. Necessitatibus saepe
+              acc. Cum.
+            </p>
+          </div>
+        </div>
+        <div class="contentBx">
+          <div class="label"><h2 class="css">CSS</h2></div>
+          <div class="content">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque blanditiis animi temporibus expedita quidem quos
+              aperiam quasi vel voluptate? Iste laborum repudiandae perferendis
+              non quidem fugiat molestias dolorum nulla dicta? Adipisntore totam
+              reiciendis suscipit ullam maiores eveniet, quas error, praesentium
+              facanimi nihil quibusdam, rerum consectetur doloremque distinctio
+              eligendi recusandae, obcaecati dolores iusto. Necessitatibus saepe
+              acc. Cum.
+            </p>
+          </div>
+        </div>
+        <div class="contentBx">
+          <div class="label"><h2 class="scss">SCSS</h2></div>
+          <div class="content">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque blanditiis animi temporibus expedita quidem quos
+              aperiam quasi vel voluptate? Iste laborum repudiandae perferendis
+              non quidem fugiat molestias dolorum nulla dicta? Adipisntore totam
+              reiciendis suscipit ullam maiores eveniet, quas error, praesentium
+              facanimi nihil quibusdam, rerum consectetur doloremque distinctio
+              eligendi recusandae, obcaecati dolores iusto. Necessitatibus saepe
+              acc. Cum.
+            </p>
+          </div>
+        </div>
+        <div class="contentBx">
+          <div class="label"><h2 class="js">JAVASCRIPT</h2></div>
+          <div class="content">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque blanditiis animi temporibus expedita quidem quos
+              aperiam quasi vel voluptate? Iste laborum repudiandae perferendis
+              non quidem fugiat molestias dolorum nulla dicta? Adipisntore totam
+              reiciendis suscipit ullam maiores eveniet, quas error, praesentium
+              facanimi nihil quibusdam, rerum consectetur doloremque distinctio
+              eligendi recusandae, obcaecati dolores iusto. Necessitatibus saepe
+              acc. Cum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------- SKILLS END ------------------------------ -->
+    <!-- -------------------------- EXPERIENCE START --------------------------- -->
+    <section class="experience" id="experience">
+      <h3>Job <span>Experience</span></h3>
+      <div class="container">
+        <div class="tab-box">
+          <button class="tab-btn">Google</button>
+          <button class="tab-btn">Youtube</button>
+          <button class="tab-btn">Texnoera</button>
+          <button class="tab-btn">Softone</button>
+          <div class="line"></div>
+        </div>
+        <div class="info-box">
+          <div class="content-info">
+            <h2>Google</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              voluptatem necessitatibus cum modi dolores molestias animi
+              doloribus repellat, sit itaque. Earum maiores mollitia voluptas
+              quisquam quasi id ducimus quidem facilis.
+            </p>
+          </div>
+          <div class="content-info">
+            <h2>Youtube</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              voluptatem necessitatibus cum modi dolores molestias animi
+              doloribus repellat, sit itaque. Earum maiores mollitia voluptas
+              quisquam quasi id ducimus quidem facilis.
+            </p>
+          </div>
+          <div class="content-info">
+            <h2>Texnoera</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              voluptatem necessitatibus cum modi dolores molestias animi
+              doloribus repellat, sit itaque. Earum maiores mollitia voluptas
+              quisquam quasi id ducimus quidem facilis.
+            </p>
+          </div>
+          <div class="content-info">
+            <h2>Softone</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              voluptatem necessitatibus cum modi dolores molestias animi
+              doloribus repellat, sit itaque. Earum maiores mollitia voluptas
+              quisquam quasi id ducimus quidem facilis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------------------------- EXPERIENCE END ---------------------------- -->
+    <!-- ---------------------------- CONTACT START ---------------------------- -->
+    <section class="contact" id="contact">
+      <form onsubmit="event.preventDefault(); validateForm()">
+        <h1>Contact Us</h1>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your name" />
+        <small class="error"></small>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Your email" />
+        <small class="error"></small>
+
+        <label for="messege">Messege:</label>
+        <textarea id="message" placeholder="Your messege" rows="6"></textarea>
+        <small class="error"></small>
+
+        <div class="center">
+          <input type="submit" value="Send Message" />
+          <p id="succes"></p>
+        </div>
+      </form>
+    </section>
+    <!-- ----------------------------- CONTACT END ----------------------------- -->
+    <!-- -------------------------- FOOTER -------------------------- -->
+    <footer>
+      <small>&copy; Copyright 2023, Made by Huseyn Isgandarov.</small>
+      <p>For contact:</p>
+      <div class="icon">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </footer>
+    <!-- ----------------------------- FOOTER END ------------------------------ -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+    <script
+      src="https://kit.fontawesome.com/063da58797.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/66f8655eb0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
